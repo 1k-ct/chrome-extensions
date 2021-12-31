@@ -25,5 +25,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: cd yt-block-search-ch; npm ci
-      - run: npm run build --if-present
-      - run: npm test
+      - run: cd yt-block-search-ch; npm run build --if-present
+      - run: cd yt-block-search-ch; npm test
