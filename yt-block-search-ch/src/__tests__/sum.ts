@@ -3,7 +3,7 @@
 //   expect(sum(1, 1)).toBe(2);
 // });
 
-import { URLs } from "../blockChannel";
+import URLs from "../data/ch.json";
 
 function testCheckExistList(urls: string[]): boolean {
   // return
@@ -26,7 +26,7 @@ function existsArrayItem(items: string[]): string[] {
   return outUrls;
 }
 function removeDoubleItemArray(outUrls: string[]): string[] {
-  let urls = URLs;
+  let urls = URLs.URL;
   for (const outUrl of outUrls) {
     const index = urls.indexOf(outUrl);
     if (index > -1) {
@@ -36,7 +36,7 @@ function removeDoubleItemArray(outUrls: string[]): string[] {
   return urls;
 }
 test("check exist list item", () => {
-  expect(testCheckExistList(URLs)).not.toBe(true);
+  expect(testCheckExistList(URLs.URL)).not.toBe(true);
   // const outUrls = existsArrayItem(URLs);
   // const urls = removeDoubleItemArray(outUrls);
   // console.log(outUrls);
