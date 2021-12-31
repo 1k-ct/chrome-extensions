@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+
+  "name": "検索ブロックするよ",
+  "description": "検索のときにいらないチャンネルをブロック",
+  "version": "1.0",
+
+  "action": {
+    "default_icon": "icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/results?search_query=*"],
+      "js": ["js/content_script.js"]
+    }
+  ],
+
+  "host_permissions": ["https://www.youtube.com/results?search_query=*"]
+}

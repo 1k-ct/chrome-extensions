@@ -1,0 +1,32 @@
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "files.eol": "\n",
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/manifest.json"
+            ],
+            "url": "http://json.schemastore.org/chrome-manifest"
+        }
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#d2fade2f",
+        "activityBar.activeBorder": "#ab8cf2",
+        "activityBar.background": "#d2fade2f",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#ab8cf2",
+        "activityBarBadge.foreground": "#15202b",
+        "sash.hoverBorder": "#d2fade2f",
+        "statusBar.background": "#a4f5bd2f",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#76f09c2f",
+        "statusBarItem.remoteBackground": "#a4f5bd2f",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#a4f5bd2f",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#a4f5bd99",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#a4f5bd2f"//a4f5bd2f#76F09B2F
+}
