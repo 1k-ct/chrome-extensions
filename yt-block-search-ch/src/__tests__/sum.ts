@@ -4,7 +4,7 @@
 // });
 
 // import URLs from "../data/ch.json";
-import testURLs from "./channel.json";
+import testURLs from "./test-channel.json";
 
 function testCheckExistList(urls: string[]): boolean {
   // return
